@@ -11,7 +11,7 @@ Filename: ./debs/1.deb
 Size: 34846
 Installed-Size: 260
 Description: Giao diện và cử chỉ của iPhone X cho iPhone cũ hơn. Phát triển bởi Dương Sang admin Nhipdap.biz
-Name: LittleXS
+Name: LittleXS IOS 12
 Author: Ryan Nair & binksalex
 Sileodepiction: 
 Depiction: 
@@ -30,7 +30,7 @@ Architecture: iphoneos-arm
 Filename: ./debs/3.deb
 Size: 46646
 Description: Trình chặn quảng cáo cho ứng dụng Youtube
-Name: Adblock cho YouTube
+Name: Chặn Quảng cáo YouTube
 Author: Majd Alfhaily
 Sileodepiction: 
 Depiction: 
