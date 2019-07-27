@@ -40,26 +40,6 @@ SHA1: ec62bc9df6bfb8ec301a7bd0b6bee7d93c258f64
 SHA256: a5fe211ebc721830a86295950eeeee9b692becc271b9a2ebf510d22680e7267b
 
 
-Package: com.repo.sangnet.filzajailed
-Version: 3.6.5
-Priority: optional
-Section: Utilities
-Maintainer: Dương Sang <sdaik9x@gmail.com>
-Depends: firmware (>= 7.0), zip, unzip, gzip, unrar, p7zip
-Conflicts: com.tigisoftware.filza64bit
-Architecture: iphoneos-arm
-Filename: ./debs/4.deb
-Size: 20165668
-Description: Công cụ quản lý tập tin cho iOS.
-Name: Filza Nhipdap.biz
-Author: TIGI Software
-Sileodepiction: 
-Depiction: 
-Icon: file:///Applications/Cydia.app/Sections/tienich.png
-MD5sum: 0b18cc02059b960b4aa2a780f7e70669
-SHA1: 89c93a779cfce25a8e53fb178e31c55c37f84e8b
-SHA256: 32b1d97c07d0e4b31680c8fdabd9f6fe98fd6d6daeb3b0d2bfbf5ff03d8a026a
-
 
 Package: com.repo.sangdaik.net.localiapstore
 Version: 1.4-5b
@@ -78,3 +58,23 @@ Icon: file:///Applications/Cydia.app/Sections/tinhchinh.png
 MD5sum: 957620823985204589097b6b590c48c3
 SHA1: d522d5f1848a949e29760046f12ec9293778c2e4
 SHA256: 85c4db8bdef20a1cb29d2ed83323117dcde5459b7c69cabb835a1087f25c124a
+
+
+Package: net.sang.homegesture
+Version: 2.1.4
+Section: Tweaks
+Maintainer: Dương Sang
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader, com.creaturecoding.libcspreferences, com.creaturesurvive.libcscolorpicker, org.thebigboss.libcolorpicker, com.spark.libsparkapplist
+Architecture: iphoneos-arm
+Filename: ./debs/5.deb
+Size: 2329012
+Installed-Size: 3244
+Description: Mang tính năng trên iPhone X cho thiết bị cũ hơn.
+Name: HomeGesture X
+Author: VitaTaf/MidnightChips/PINPAL
+Sileodepiction: 
+Depiction: 
+Icon: file:///Applications/Cydia.app/Sections/tinhchinh.png
+MD5sum: 92e5bd4f7fac53a0cf41923ba907730c
+SHA1: d76e24af019d9abed7425815413edc78e9fba45e
+SHA256: 6d68b11f7d3ff0b7048c2782613aa45f6abadb7328c5bbfe1a728dc0d99d3f11
