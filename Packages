@@ -10,7 +10,7 @@ Architecture: iphoneos-arm
 Filename: ./debs/1.deb
 Size: 34846
 Installed-Size: 260
-Description: Giao diện và cử chỉ của iPhone X cho iPhone cũ hơn.
+Description: Giao diện và cử chỉ của iPhone X cho iPhone cũ hơn. Phát triển bởi Dương Sang admin Nhipdap.biz
 Name: LittleXS
 Author: Ryan Nair & binksalex
 Sileodepiction: 
