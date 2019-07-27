@@ -20,24 +20,21 @@ MD5sum: 9ca6678cfe0bafe1d68636b18f1ed7c6
 SHA1: f06e9176cdfed05b4d78c75437c69927a474188d
 SHA256: 8f129e8b815e425f59b180d6862a64d96504d37fa33c3ce6011b26153f819bf3
 
-Package: com.matchstic.reprovision
-Version: 0.3
-Architecture: iphoneos-arm
-Maintainer: Matt Clarke <matt@incendo.ws>
-Depends: firmware (>= 9.0)
-Replaces: com.matchstic.Extender-Installer
-Provides: com.matchstic.Extender-Installer
-Filename: ./debs/2.deb
-Size: 6600640
-MD5sum: 596c645f2d786cdf8d188e7228895767
-SHA1: e7cc9b908b9d9f29eeade4af774aa778fb9f2f7b
-SHA256: 75e042a450df0ece6b5dd364a5af4e6e786404cc7fd4d8a2692bf7da377fe4f2
-Section: System
+Package: com.repo.sang.net.chanqcytb
+Version: 1.0.7
 Priority: optional
-Homepage: nhipdap.biz
-Description: Re-sign applications on your device
-Author: Matt Clarke <matt@incendo.ws>
+Section: Tweaks
+Maintainer: Dương Sang
+Depends: firmware (>= 8.0)
+Architecture: iphoneos-arm
+Filename: ./debs/3.deb
+Size: 46646
+Description: Trình chặn quảng cáo cho ứng dụng Youtube
+Name: Adblock cho YouTube
+Author: Majd Alfhaily
+Sileodepiction: 
 Depiction: 
-Dev: Matt Clarke <matt@incendo.ws>
-Icon: file:///Applications/ReProvision.app/AppIcon60x60@2x.png
-Name: ReProvision
+Icon: file:///Applications/Cydia.app/Sections/tinhchinh.png
+MD5sum: ebe9219c6a45d7168ecd62b651d8cb70
+SHA1: ec62bc9df6bfb8ec301a7bd0b6bee7d93c258f64
+SHA256: a5fe211ebc721830a86295950eeeee9b692becc271b9a2ebf510d22680e7267b
