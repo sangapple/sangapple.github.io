@@ -1,4 +1,4 @@
-Name: LittleXS Sang
+Name: LittleXS
 Package: com.binksalex.littlexs
 Description: LittleX revitalized for iOS 12.
 Architecture: iphoneos-arm
@@ -6,17 +6,17 @@ Section: Tweaks
 Depiction: https://repo.packix.com/package/com.binksalex.littlexs/
 Icon: https://repo.packix.com/api/Packages/5cc39d9aa240f9001889d1da/icon/download?size=medium&hash=2
 SileoDepiction: https://repo.packix.com/api/sileo/package/com.binksalex.littlexs/depiction
-Version: 1.2
+Version: 2.0.0
 Tag: purpose::extension, compatible_min::ios11.0.0, compatible_max::ios12.1.4
-Filename: ./debs/xs.deb
-Size: 17036
-MD5sum: 3ab3ade28f6912c18c93a100b8cc2356
-SHA1: b2f31e8466033069327ce862efa98801854284b8
-SHA256: 8ed731dcd30092e9dea2cae23caff2596973595944c3d5b5b428925f2c9015c3
-Author: Dương Sang
+Filename: ./deb/xs.deb
+Size: 22018
+MD5sum: 9d6e941cf215fa9d6d5ceba047cb08ac
+SHA1: f95dca1eb1ec61dc66597713c080bf234326627b
+SHA256: 3a18f2848dc428b388dc8a2c0d9d25247fdafd9d5cdb72aac7c70897ae817fe4
+Author: Ryan Nair & binksalex
 Maintainer: Ryan Nair
 Depends: mobilesubstrate
 Replaces: com.binksalex.fluidify, com.ryannair05.poseidon, com.ryannair05.poseidon-rounded, com.vitataf.homegesture, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
 Provides: com.binksalex.fluidify, com.ryannair05.poseidon, com.ryannair05.poseidon-rounded, com.vitataf.homegesture, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.duraidabdul.neptune
 Conflicts: com.binksalex.fluidify, com.ryannair05.poseidon, com.ryannair05.poseidon-rounded, com.vitataf.homegesture, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
-Installed-Size: 228
+Installed-Size: 260
