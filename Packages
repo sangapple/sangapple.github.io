@@ -8,7 +8,7 @@ Icon: https://repo.packix.com/api/Packages/5cc39d9aa240f9001889d1da/icon/downloa
 SileoDepiction: https://repo.packix.com/api/sileo/package/com.binksalex.littlexs/depiction
 Version: 2.0.0
 Tag: purpose::extension, compatible_min::ios11.0.0, compatible_max::ios12.1.4
-Filename: ./s/xs.deb
+Filename: ./debs/xs.deb
 Size: 22018
 MD5sum: 9d6e941cf215fa9d6d5ceba047cb08ac
 SHA1: f95dca1eb1ec61dc66597713c080bf234326627b
