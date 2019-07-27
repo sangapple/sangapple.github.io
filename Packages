@@ -1,22 +1,21 @@
-Name: LittleXS
-Package: com.binksalex.littlexs
-Description: LittleX revitalized for iOS 12.
-Architecture: iphoneos-arm
+Package: repo.sang.net.littlexs
+Version: 2.2.0
 Section: Tweaks
-Depiction: https://repo.packix.com/package/com.binksalex.littlexs/
-Icon: https://repo.packix.com/api/Packages/5cc39d9aa240f9001889d1da/icon/download?size=medium&hash=2
-SileoDepiction: https://repo.packix.com/api/sileo/package/com.binksalex.littlexs/depiction
-Version: 2.0.0
-Tag: purpose::extension, compatible_min::ios11.0.0, compatible_max::ios12.1.4
-Filename: ./debs/xs.deb
-Size: 22018
-MD5sum: 9d6e941cf215fa9d6d5ceba047cb08ac
-SHA1: f95dca1eb1ec61dc66597713c080bf234326627b
-SHA256: 3a18f2848dc428b388dc8a2c0d9d25247fdafd9d5cdb72aac7c70897ae817fe4
-Author: Ryan Nair & binksalex
-Maintainer: Ryan Nair
+Maintainer: Dương Sang
 Depends: mobilesubstrate
-Replaces: com.binksalex.fluidify, com.ryannair05.poseidon, com.ryannair05.poseidon-rounded, com.vitataf.homegesture, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
-Provides: com.binksalex.fluidify, com.ryannair05.poseidon, com.ryannair05.poseidon-rounded, com.vitataf.homegesture, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.duraidabdul.neptune
 Conflicts: com.binksalex.fluidify, com.ryannair05.poseidon, com.ryannair05.poseidon-rounded, com.vitataf.homegesture, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Provides: com.binksalex.fluidify, com.ryannair05.poseidon, com.ryannair05.poseidon-rounded, com.vitataf.homegesture, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.duraidabdul.neptune
+Replaces: com.binksalex.fluidify, com.ryannair05.poseidon, com.ryannair05.poseidon-rounded, com.vitataf.homegesture, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Architecture: iphoneos-arm
+Filename: ./debs/1.deb
+Size: 34846
 Installed-Size: 260
+Description: Giao diện và cử chỉ của iPhone X cho iPhone cũ hơn.
+Name: LittleXS
+Author: Ryan Nair & binksalex
+Sileodepiction: 
+Depiction: 
+Icon: file:///Applications/Cydia.app/Sections/tinhchinh.png
+MD5sum: 9ca6678cfe0bafe1d68636b18f1ed7c6
+SHA1: f06e9176cdfed05b4d78c75437c69927a474188d
+SHA256: 8f129e8b815e425f59b180d6862a64d96504d37fa33c3ce6011b26153f819bf3
