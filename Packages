@@ -1,21 +1,22 @@
-Package: repo.duongsang.littlexs
-Version: 2.2.0
-Section: Tweaks
-Maintainer: Dương Sang
-Depends: mobilesubstrate
-Conflicts: com.binksalex.fluidify, com.ryannair05.poseidon, com.ryannair05.poseidon-rounded, com.vitataf.homegesture, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
-Provides: com.binksalex.fluidify, com.ryannair05.poseidon, com.ryannair05.poseidon-rounded, com.vitataf.homegesture, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.duraidabdul.neptune
-Replaces: com.binksalex.fluidify, com.ryannair05.poseidon, com.ryannair05.poseidon-rounded, com.vitataf.homegesture, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Name: LittleXS Sang
+Package: com.binksalex.littlexs
+Description: LittleX revitalized for iOS 12.
 Architecture: iphoneos-arm
-Filename: ./debs/1.deb
-Size: 34846
-Installed-Size: 260
-Description: Giao diện và cử chỉ của iPhone X cho iPhone cũ hơn.
-Name: LittleXS
-Author: Ryan Nair & binksalex
-Sileodepiction: https://sangapple.github.io/1/xs
-Depiction: https://repo.kenhtao.net/view/546
-Icon: file:///Applications/Cydia.app/Sections/tinhchinh.png
-MD5sum: 9ca6678cfe0bafe1d68636b18f1ed7c6
-SHA1: f06e9176cdfed05b4d78c75437c69927a474188d
-SHA256: 8f129e8b815e425f59b180d6862a64d96504d37fa33c3ce6011b26153f819bf3
+Section: Tweaks
+Depiction: https://repo.packix.com/package/com.binksalex.littlexs/
+Icon: https://repo.packix.com/api/Packages/5cc39d9aa240f9001889d1da/icon/download?size=medium&hash=2
+SileoDepiction: https://repo.packix.com/api/sileo/package/com.binksalex.littlexs/depiction
+Version: 1.2
+Tag: purpose::extension, compatible_min::ios11.0.0, compatible_max::ios12.1.4
+Filename: ./debs/xs.deb
+Size: 17036
+MD5sum: 3ab3ade28f6912c18c93a100b8cc2356
+SHA1: b2f31e8466033069327ce862efa98801854284b8
+SHA256: 8ed731dcd30092e9dea2cae23caff2596973595944c3d5b5b428925f2c9015c3
+Author: Dương Sang
+Maintainer: Ryan Nair
+Depends: mobilesubstrate
+Replaces: com.binksalex.fluidify, com.ryannair05.poseidon, com.ryannair05.poseidon-rounded, com.vitataf.homegesture, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Provides: com.binksalex.fluidify, com.ryannair05.poseidon, com.ryannair05.poseidon-rounded, com.vitataf.homegesture, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.duraidabdul.neptune
+Conflicts: com.binksalex.fluidify, com.ryannair05.poseidon, com.ryannair05.poseidon-rounded, com.vitataf.homegesture, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Installed-Size: 228
