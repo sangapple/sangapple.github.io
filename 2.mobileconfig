@@ -556,7 +556,7 @@
 			<key>PayloadDescription</key>
 			<string>Configures settings for a web clip</string>
 			<key>PayloadDisplayName</key>
-			<string>Web Clip</string>
+			<string>Dương SANG</string>
 			<key>PayloadIdentifier</key>
 			<string>com.apple.webClip.managed.791CC0EE-DD56-46FB-BEBE-DC6769932CCD</string>
 			<key>PayloadType</key>
@@ -572,13 +572,13 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>NHIPDAP.BIZ là một ứng dụng đa năng cho iOS. Bạn có thể tải các ứng dụng Jailbreak, ứng dụng phiên bản thấp, ứng dụng song song, ứng dụng trả phí một cách miễn phí. Ngoài ra BOX còn giúp bạn tìm ICCID đang hoạt động cho iPhone Lock, cài cấu hình chặn cập nhật, lên iOS beta,...</string>
+	<string>NHIPDAP.BIZ | Tải apps JB miễn phí. Chi tiết hỗ trợ liên hệ http://facebook.com/workoutds (Dương Sang)</string>
 	<key>PayloadDisplayName</key>
 	<string>DƯƠNG SANG BOX</string>
 	<key>PayloadIdentifier</key>
 	<string>com.duongsang.jb</string>
 	<key>PayloadOrganization</key>
-	<string>SANG Team</string>
+	<string>SANG Team | sang@nhipdap.biz</string>
 	<key>PayloadRemovalDisallowed</key>
 	<false/>
 	<key>PayloadType</key>
