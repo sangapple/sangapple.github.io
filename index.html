@@ -1,203 +1,403 @@
-  <!DOCTYPE html>
-<html lang="en-US">
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Sang Jailbreak apps and tool | Nhipdap.biz</title>
-    <link rel="stylesheet" href="https://ipa.kenhtao.net/css/ipa.css" />
-    <link rel="stylesheet" href="https://ipa.kenhtao.net/css/themes.css" />
-    <link rel="stylesheet" href="https://ipa.kenhtao.net/css/ipa.css" />
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" sizes="180x180" href="images/logos.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://www.googletagmanager.com/gtag/js?id=UA-101622559-3"></script>
+<style>
+/* Copyright 2011 sdaoik */
 
-</head>
-<body style="">
-<div class="page-content pull-to-refresh-content transitioning" data-ptr-distance="55">
-<div class="pull-to-refresh-layer">
-<div class="preloader"></div>
-</div>
-  <header><a href="/"><h1>DƯƠNG SANG BOX<h1></a></header><font color='red'>Thêm source <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://sangapple.github.io" target="_blank"><b></i>  sangapple.github.io</i></b> trên cydia </a> để cập nhật những Tweak đỉnh nhất!</font>
-<div class="list-block media-list list-block-search searchbar-found">
-<center>
-  <style>#st-loader {
-position: fixed!important;
-top: 0;
-right: 0;
-bottom: 0;
-left: 0;
-z-index: 9999;
-background:#0C0C0C
-url('https://www.gifimage.net/wp-content/uploads/2018/10/apple-loading-gif-7.gif')
-no-repeat 50% 30%;
-color: #FFF;
-display: none;
-font: 0/0 a;
-text-shadow: none;
-padding: 1em 1.2em;
+@import url("../blog/xanh.css");
+body {
+    color: #3e3e3e;
+    margin: 0;
+    padding: 1px;
+    font: 17px Arial;
+    background: #eafbff none repeat scroll 0 0;
+    margin: auto;
+    max-width: 600px;
+    border : 1px solid #cdcdcd;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
 }
-</style><script type='text/javascript'>
-//<![CDATA[
-$(document.body).append('<div id="st-loader">Loading...</div>');
-$(window).on("beforeunload", function() {
-    // ... Show the Animation `.fadeIn()`
-    $('#st-loader').fadeIn(1000).delay(6000).fadeOut(1000);
-});
-//]]>
-</script>
-<div id="mySidenav" class="sidenav">
-<a href="javascript:void(0)" class="nutx" onclick="closeNav()">&times;</a>
-<img src="https://ipa.kenhtao.net/images/dll.PNG" style="max-width: 260px;" alt="" />
-<p></p>
-    
-</div><div class="timkiem">
-<ul id="myUL">
-    
-<li>
-<div class="item-content">
-<div class="item-media">
-<img class="app-icon" src="https://ipa.kenhtao.net/images/unc0ver.png" alt="" /></div>
-<div class="item-inner">
-<div class="item-title-row">
-<div class="item-title"><b>UNCover ios 11</b>  (Đã fix lỗi)</div>
-<div class="item-after">
-<a href="itms-services://?action=download-manifest&url=https://sangapple.github.io/u2.plist" class="button button-fill button-round" onclick="openNav()"><b>Cài đặt</b></a>
-</div>
-</div>
-<div class="item-subtitle">
-    <div class="chip"><div class="chip-media bg-color-green">V</div><div class="chip-label">1.0</div></div>
-    <div class="chip"><div class="chip-media bg-color-blue">I</div><div class="chip-label">11.0 - 12.2</div></div>
-</div>
-</div>
-</div>
-</li>    
+a:link, a:visited, a:active {
+    color: #0000ff;
+    text-decoration: none;
+}
+a:hover, a:focus {
+    color: #ff8700;
+    text-decoration: none;
+    text-shadow: 0 0 6px #ff4e00;
+}
+img {
+    border-style: none;
+    vertical-align: middle;
+}
+input, input[type="submit"], textarea, select, .menu, .title {
+    border-radius: 4px;
+}
+input, textarea, select {
+    color: #000;
+    background: url(../blog/images/bg_input.png) #fff left bottom repeat-x;
+    border: 1px solid #88beff;
+    margin: 1px;
+    padding: 2px;
+}
+input:hover, textarea:hover, select:hover {
+    color: #8f8f8f;
+    background-color: #f4f4f4;
+    border: 1px solid #d7d7d7;
+}
+input:focus, textarea:focus, select:focus {
+    color: #00bae8;
+    background-color: #edf9fd;
+    border: 1px solid #c2e3ec;
+}
+input[type="submit"] {
+    color: #fff;
+    background: #1895d4 url(images/til.gif) 50% top
+ repeat-x;
+    padding: 2px 4px 2px 4px;
+    border: 1px solid #8fdcff;
+}
+input[type="submit"]:hover {
+    color: #000;
+    background: #1895d4 url(images/til.gif) 0 top repeat-x;
+    border: 1px solid #000;
+    padding: 2px 4px 2px 4px;
+}
+h3 {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 2px;
+}
+hr {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border-top: 1px solid #e3e3e3;
+    border-right-style: none;
+    border-right-width: 0;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    border-left-style: none;
+    border-left-width: 0;
+}
+p {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+ul {
+    margin: 0;
+    padding-left: 20px;
+}
+.bd1 {
+    -webkit-box-shadow: -8px 0px 8px #777;
+    -moz-box-shadow: -8px 0px 8px #777;
+    box-shadow: -8px 0px 8px #777;
+    -webkit-border-top-left-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topright: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.bd2 {
+    box-shadow: 8px 8px 8px #777;
+    -moz-box-shadow: 8px 8px 8px #777;
+    -webkit-box-shadow: 8px 8px 8px #777;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 15px;
+}
+.quyet {
+    text-shadow: #e6daac 1px 1px;
+    color: #444;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 3px;
+    border-bottom: 1px solid #00f;
+    background: #ddf6dd;
+}
+.daik {
+    padding-top : 2px;
+    background-color: #fff;
+    background-position : top;
+}
+td {line-height:15px}
+#tab {padding:2px 5px 0 5px;border-bottom:5px solid #71BC00;font-size:12px}
+#tab a {color:#494949;font-weight:bold}
+#tab tr, #tab td{height:25px;padding-top:4px}
+#tab td {padding-left:5px;padding-right:5px;text-align:center}
+#tab .active {background:#71BC00;}
+#tab .active a {color:#fff}
+.head {
+    background-color: #aaffff;
+    background-image: url(../images/bautroi.gif);
+    background-repeat: repeat x;
+    text-align: center;
+    border: 1px dashed #0000ff;
+    margin: 0;
+    padding: 0;
+}
+.time {
+    color: #0000ff;
+    background-color: #ffffff;
+    text-align: center;
+}
+.phdr, .bmenu, .upban {
+    color: #fffaee;
+    font-weight: bold;
+    text-shadow: #45cdf5 1px 1px 1px;
+    background-color: #319aff;
+    background-repeat: repeat-x;
+    background-position: 50% top;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding: 2px;
+    border: 1px solid #007dff;
+}
+.phdr a, .bmenu a, .upban a {
+    color: #fffaee;
+}
+.phdr a:hover, .bmenu a:hover, .upban a:hover {
+    color: #dbfaff;
+}
+.hdr {
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    margin-top: 6px;
+    margin-bottom: -18px;
+    margin-left: 6px;
+    padding: 2px 6px 2px 6px;
+    border: 2px solid #8fdcff;
+    border-style: groove ridge ridge groove;
+    display: table;
+    background: #1895d4 url(images/til.gif) repeat-x 50% top;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.hdr a {
+    color: #fff;
+    border-bottom: 1px dotted #ace6ff;
+}
+.hdr + .table {
+    margin-top: 6px;
+    margin-bottom: 4px;
+    padding-top: 14px;
+}
+.hdr + form .table {
+    margin-top: 6px;
+    padding-top: 15px;
+}
+.table, .foot {
+    background-color: lightyellow;
+    background-repeat: repeat-x;
+    background-position: 50% top;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding: 5px;
+    border: 2px solid #1895d4;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+}
+.list1, .cool, .row_easy, .b, .blog {
+    background-color: #f7fcff;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding: 2px;
+    border: 1px solid #0e8eea;
+}
+.list2, .row_hard, .c {
+    background-color: #e7fbff;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding: 2px;
+    border: 1px solid #0e8eea;
+}
+.menu {
+    background-image: url(images/tmn.gif);
+    background-repeat: repeat-x;
+    background-position: 50% top;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding: 2px;
+    border: 1px solid #e1e1e1;
+}
+.rmenu {
+    color: #fd4646;
+    background-color: #fff0f0;
+    background-image: url(images/rmenu.gif);
+    background-repeat: repeat-x;
+    background-position: 50% top;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding: 2px;
+    border: 1px solid #ffd0d0;
+}
+.quote {
+    display: block;
+    background-color: #fcfeeb;
+    border: 1px solid #e9ebec;
+    border-left: 4px solid #8394b2;
+    color: #878787;
+    font-size: 10px;
+    padding-left: 6px;
+    margin-top: 5px;
+    padding: 3px;
+}
+.footer, .coklat {
+    background: #86d6fe url(images/foot.png) repeat-x 50% bottom;
+    border: 1px solid #88beff;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding: 4px;
+    text-align: left;
+    text-indent: 0px;
+    color: #000;
+}
+.header {
+    background: #99ffff url(images/head.png) repeat-x 50% bottom;
+    border: 1px solid #88beff;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding: 20px 5px 20px 5px;
+    text-align: center;
+    text-indent: 0px;
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+}
+</style>
+<title>Tut bypass 13.3 by Dương SANG</title>
+<center><h3><i>Tut bypass 13.3 by Dương SANG</h3></i></center>
+<font color='black'>
+<b>I Bypass ios 13.3</b><br><br>
+<br><br><br><br><br>
+II. Open SSH<br><br><br>
+<br>
+1. Install python 2.7.17 to C:\<br><br>
+<br>
+2. Connect to ssh: <br><br><br>
+open cmd <br>
+  ~ <textarea>cd C:\Python27</textarea><br>
+  ~ <textarea>python.exe tcprelay.py</textarea><br>
+  ~ <textarea>tcprelay.py -t 44:2222</textarea><br>
+<br>
+3. open putty use 127.0.0.1 port 2222 
+you will see terminal <br>
++username : root<br>
++password : alpine<br>
 
-<li>
-<div class="item-content">
-<div class="item-media">
-<img class="app-icon" src="https://ipa.kenhtao.net/images/unc0ver.png" alt="" /></div>
-<div class="item-inner">
-<div class="item-title-row">
-<div class="item-title"><b>Unc0ver (Khuyên dùng)</b></div>
-<div class="item-after">
-  <a href="itms-services://?action=download-manifest&url=https://app.app-valley.vip/plists/1574/install.plist" class="button button-fill button-round" onclick="openNav()" onclick="openNav()"><b>Cài đặt</b></a>
-</div>
-</div>
-<div class="item-subtitle">
-    <div class="chip"><div class="chip-media bg-color-green">V</div><div class="chip-label">3.4.0</div></div>
-    <div class="chip"><div class="chip-media bg-color-blue">I</div><div class="chip-label">11.0 - 12.2</div></div>
-</div>
-</div>
-</div>
-</li>
+<br>
+MỞ IFANBOX - TOOLBOX - USER FILE SYSTEM<br>
+<br>
+ - DOWNLOAD - COPY từ PC COPYFILE INFO.PLIST(FILZA)<br><br>
+ - COM.SAMJP..SUCESSSION.XXX<br>
+<br><br>
+
+copy ios vào <br>
+SUCCESSION - IPSW.IPSW<br>
+<br><br>
+B4. Command open Filza File Manager TRONG PUTTY<br><br>
+
+  <textarea>cp /var/mobile/Media/Downloads/Info.plist /Applications/Filza.app</textarea><br><br>
+ SAU ĐÓ :RESSPING<br><br>
+VÀO FILZA CÀI  Succession (TRONG DOWLOAD) - Install- DONE<br><br>
+<br><br><br>
+B5: THÊM FILE<br><br>
+DẤU SAO - APPLECATIONS - SUCCESIONRESTORE.APP - INFO.PLIST - CLICK (i) <br><br>
+<br><br>
+  Add item:<b>  SBIsLaunchableDuringSetup </b><br><br>
+Type: Booleana<br><br>
+Value: YES - BACK RA LƯU<br><br>
+
+B6: BACK UPWWIFI: USR/SHARE/FIRMWARE(WIFI) ->COPY TO DOWNLOAD<br><br>
+
+- RESping về home vào succession<br><br>
+B7: config succession -<br><br>
+Notnow dissmiss- settings - bật onlys restore(dongf2) - download cleanfile system<br><br>
+use privide ipsw - over write - đợi <br><br>
+-- Đợi xác minh xong - back<br><br>
+
+Prepare - earsy iphone - begin restore -<br><br>
 
 
-    
-<li>
-<div class="item-content">
-<div class="item-media">
-<img class="app-icon" src="http://icons.iconarchive.com/icons/alecive/flatwoken/256/Apps-Google-Chrome-App-List-icon.png" alt="" /></div>
-<div class="item-inner">
-<div class="item-title-row">
-<div class="item-title"><b></b></div>Dương Sang
-<div class="item-after">
-  <a href="/" class="button button-fill button-round"b>Đang phát triển</b></a>
-</div>
-  
-</div>
-<div class="item-subtitle">
-    <div class="chip"><div class="chip-media bg-color-green">V</div><div class="chip-label">1.0.0</div></div>
-    <div class="chip"><div class="chip-media bg-color-blue">I</div><div class="chip-label">5.0 - 13.0</div></div>
-</div>
-</div>
-</div>
-</li>
-  
-  
- <li>
-<div class="item-content">
-<div class="item-media">
-<img class="app-icon" src="https://ipa.kenhtao.net/images/youtube.png"></div>
-<div class="item-inner">
-<div class="item-title-row">
-<div class="item-title"><b>Youtube++</b></div>
-<div class="item-after">
-<a href="itms-services://?action=download-manifest&url=https://ipa.kenhtao.net/plists/youtube++.plists" class="button button-fill button-round" onclick="openNav()"><b>Đang lỗi</b></a>
-</div>
-</div>
-<div class="item-subtitle">
-    <div class="chip"><div class="chip-media bg-color-green">V</div><div class="chip-label">1.0</div></div>
-    <div class="chip"><div class="chip-media bg-color-blue">S</div><div class="chip-label">110.52 MB</div></div>
-</div>
-</div>
-</div>
-</li> 
-  
-  
-  
-  <li>
-<div class="item-content">
-<div class="item-mediax">
+<br>
 
-<b></b></div><p align="left">+Lưu ý : Sau khi JB xong,<br> 
-  uncover có thể bị thu hồi bởi apple. <br>
-  Để tránh mất thời gian bạn nên <br>cài thêm tweak Reprovision<br>
-  Mở Cydia > chọn tab Các nguồn > nhấn Sửa > Thêm <br>
-  và tiến hành add nguồn repo.incendo.ws <br>- Sau đó tìm ReProvision , 
-  <br>sau khi cài xong, mở Reprovision lên, 
-  <br>Add Uncover và đăng nhập id apple bất kì để Sign unCover
-<div class="item-after">
-  <a href="/" class="button button-fill button-round"b>Mẹo</b></a>
-</div>
+sau đó jaibreak.. bằng DFU ..rồi bypass 0.9.2<br><br>
+
+<br>
+<br><br>
+sau đó wifi backup lại<br>
+  <br>
+  icloud ẩn
   
-</div>
-
-</div>
-</div>
-</div>
-</li>
-<ul id="myUL">
-<li class="betafr">
-<a href="http://sangapple.byethost7.com/TVIOs12_DuongSAng.mobileconfig" class="item-link item-content betaframe" style="background: linear-gradient(#cc34c0,#8b19b4)" target="_blank">
-<div class="item-inner" style="margin-top: 0">
-
-<div class="item-title" style="padding:15px"><b class="iostitle">Chặn cập nhật iOS 11 & 12<span style="display:none">Chặn cập nhật - Chan cap nhat</span></b> </div>
-<div class="titlebeta item-text">Chặn cập nhật và thông báo nâng cấp lên iOS 11 & 12</div>
-  </div></a>
-</a>
+  <br>
   
-  Nhấn vào <b>Cài đặt</b> khi cửa sổ bật lên và chờ đợi Ứng dụng tải về màn hình chính. Có thể sẽ hơi lâu!</span>
-<span>Sau khi tải về hoàn thành, bạn chỉ cần mở <b>Cài đặt ▸ Cài đặt chung ▸ Quản lý thiết bị</b> và <b>Tin cậy</b> cấu hình mới.</span>
-</li>
-</ul>
-</div>
+/var/mobile/Library/Accounts
+<br>
 
-<li>
-<div class="item-content">
-<div class="item-mediax">
 
-  <b></b></div><p align="left">ICCID: 89014104279202596953
-<br>Lắp máy quốc tế nhập *5005*7672*00# và nhập mã trên. <br>IOS máy lock yêu cầu 12.3 trở lên.. ,<br>
-  Nếu nhỏ hơn thì Jailbreak fake Version ios lên 12.3
-<div class="item-after">
+<br>
+  <br>
+  <br>
+  hidescreenshotpreview 
+  <br>
+  <br><a href='https://cydia.ichitaso.com'>OTABlock ios cydia.ichitaso.com</a><br>
+  <a href='https://akusio.github.io'>Akusio akusio.github.io</a><br>
+ <br>
+ -Hidescreenshotpreview</br>
+<br><br>
+</font>
+
+Fix lock như quốc tế by Dương Sang<br>+ Truy cập: System--Library--Carrier Bundles--iphone <br>
+  + Tìm tên nhà mạng muốn nạp ví dụ :Viettel_vn.bundle và copy hết file <br>
++ Tìm Folder tên nhà mạng: xóa hết file và dán file nhà mạng muốn nạp ví dụ (ATT_US.bundle) <br>
++ Tìm Folder Unknown.bundle và dán file nhà mạng muốn nạp <br>
+ +Tìm  USER > libery > carry1bundle 1 - xóa hết- paster nhà mạng mobi / 
+  <br>USER > libery > Carrier Bundles /iphone xóa hết và dán mạng mobi <br> USER libery  >overlay - xóa hết   
+  Sau đó Respsirng<br><font>
+  Dương Sang -- 2020
+  <br>
+  USER > libery > prifidences > tìm Apps fix +84 </br>
+   84<br>
+  /Applications/checkra1n.app/Contents/MacOS/checkra1n
+  <br>
+  Tool fix sim lock by Dương sang, chi tiết liên hệ <a href='http://fb.com/workoutds'>Admin </div>
+
+  <a href='https://xsf1re.github.io/archive/'> Fly jb</a>
   
-</div>
-  
-</div>
-
-</div>
-</div>
-</div>
-</li>
-</ul>
-</div>
-<center>
-<footer>
-    <p>Được tạo bởi <a href="http://fb.com/workoutds">Sang Apple </a> | Download tại Nhipdap.biz!</p>
-</footer></body>
+  Share cho ae 1 số đường dẫn hệ thống thông dụng:
+1/Thay kí tự 4G
+<br>
+/System/Library/PrivateFrameworks/UIKitCore.framework/vi.lproj/Localizable.strings
+<br>
+2/Thay đổi: Vuốt lên để mở
+<br>
+/System/Library/PrivateFrameworks/SpringBoardUIServices.framework/vi.lproj/SpringBoardUIServices_Late_Fall_2018_iOS.strings
+<br>
+3/Thay đổi các thứ trong Cài đặt
+<br>
+/System/Library/PrivateFrameworks/Settings/GeneralSettingsUI.framework/vi.lproj
+<br>
+4/Thay đổi kí tự Trả lời,từ chối cuộc gọi, lời nhắc tin nhắn
+<br>
+/Apps/InCallService.app/zh_CN. lproj/bottombar. Strings
+<br>
+5/ Thay đổi chữ "Không có thông báo cũ hơn”
+<br>
+/System/Library/PrivateFrameworks/UserNotificationsUIKit.framework/zh_CN. lproj/Localizable. Strings
+<br>
+6/Thay đổi các kí tự thông báo khi khoá màn hình: Nhập mật mã…
+<br>
+/System/Library/PrivateFrameworks/SpringBoardUIServices.framework/vi.lproj
+<br>
+7/ Thay đổi kí tự hiển thị khi bật tẮt Wifi,Bluetooth…
+<br>
+/System/Library/ControlCenter/Bundles/ConnectivityModule.bundle/vi. lproj
+<br>
+  Ae còn gì hay thì cùng chia sẻ thêm nhé <br><head><title></title></head><body></body>
 </html>
