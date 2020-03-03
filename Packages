@@ -38,3 +38,22 @@ Size: 37740
 MD5sum: 755dc7f7e5e84983c4c73c10e2d701b6
 SHA1: fbc89fe227e9fef2a2b31309147b2e90695dbca0
 SHA256: 281c816fb8a1efa61410eba7f41fae07fc1e8a38f3e556551f58a5c05d8c7220
+
+
+Package: com.ichitaso.otadisabler
+Section: System
+Installed-Size: 200
+Maintainer: ichitaso
+Architecture: iphoneos-arm
+Version: 0.1-6
+Depends: firmware (>= 9.0), system-cmds, mobilesubstrate
+Filename: ./debs/com.ichitaso.otadisabler_0.1-6_iphoneos-arm.deb
+Size: 23550
+MD5sum: 933a26ca508bc0e1d2c5cd7d245b361b
+SHA1: 5d479af453cb016852c371b35dc70a85453af455
+SHA256: 31805bbfb83c17e544a8195f9f0cde199bf01ebd207d840736ae3b0a4d95b491
+SHA512: 8c37d2037ec322a19b7c42ff74bdab6525916e23f7ea3c01bbfc88c3714864c27875a7cf36407dca4b16e2212749f39643cb9e6ffa6e3ea1166a46cba75edd10
+Description: Chặn Update IOS
+Name: Chặn Update IOS
+Depiction: Chặn Update IOS
+Author: DuongSAng
