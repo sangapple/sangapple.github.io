@@ -57,3 +57,24 @@ Description: Chặn Update IOS
 Name: Chặn Update IOS
 Depiction: Chặn Update IOS
 Author: DuongSAng
+
+Package: com.pulandres.safestdn
+Version: 1.60
+Priority: optional
+Section: Tweaks
+Maintainer: Pulandres
+Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader, net.limneos.libbulletin, ws.hbang.common (>= 1.11)
+Architecture: iphoneos-arm
+Filename: ./debs/com.pulandres.safestdn_1.60_iphoneos-arm.deb
+Size: 9327236
+Installed-Size: 12368
+Description: Avoid re-jailbreaking when your iDevice have not battery.
+Name: SafeShutdown Cracked by Sang
+Author: Pulandres
+Homepage: https://repo.pulandres.me
+Depiction: https://repo.pulandres.me/index.php?pid=1116
+SileoDepiction: https://repo.pulandres.me/sileo.php?pid=1116
+Icon: https://repo.pulandres.me/CydiaIcon.png
+MD5sum: 06a71b14c2e6fc5585d323d2cc118340
+SHA1: 35c3fe1f7a59245d97c34806a3a4ac404ca31e07
+SHA256: 30ac7c322af44e27f627bb7eb6b65b74d2ee85a41b5ce0f07f895d2e102a1126
