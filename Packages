@@ -1,80 +1,18 @@
-Package: repo.sang.net.littlexs
-Version: 2.2.0
-Section: Tweaks
-Maintainer: Dương Sang
-Depends: mobilesubstrate
-Conflicts: com.binksalex.fluidify, com.ryannair05.poseidon, com.ryannair05.poseidon-rounded, com.vitataf.homegesture, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
-Provides: com.binksalex.fluidify, com.ryannair05.poseidon, com.ryannair05.poseidon-rounded, com.vitataf.homegesture, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.duraidabdul.neptune
-Replaces: com.binksalex.fluidify, com.ryannair05.poseidon, com.ryannair05.poseidon-rounded, com.vitataf.homegesture, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Package: com.sang.flyjb
+Name: FlyJB Sang
+Depends: mobilesubstrate, applist, preferenceloader, com.rpetrich.rocketbootstrap, ws.hbang.common
 Architecture: iphoneos-arm
-Filename: ./debs/1.deb
-Size: 34846
-Installed-Size: 260
-Description: Giao diện và cử chỉ của iPhone X cho iPhone cũ hơn. s Phát triển bởi Dương Sang admin Nhipdap.biz
-Name: Cử chỉ XS MAX trên ios cũ
-Author: Ryan Nair & binksalex
-Sileodepiction: 
-Depiction: 
-Icon: file:///Applications/Cydia.app/Sections/tinhchinh.png
-MD5sum: 9ca6678cfe0bafe1d68636b18f1ed7c6
-SHA1: f06e9176cdfed05b4d78c75437c69927a474188d
-SHA256: 8f129e8b815e425f59b180d6862a64d96504d37fa33c3ce6011b26153f819bf3
-
-Package: com.repo.sang.net.chanqcytb
-Version: 1.0.7
-Priority: optional
+Description: (베타테스터용) 날아오르라~ 제비여! (?)
+Maintainer: XsF1re <shg1725x@yahoo.com>
+Author: DuongSang <sangtvxq@gmail.com>
 Section: Tweaks
-Maintainer: Dương Sang
-Depends: firmware (>= 8.0)
-Architecture: iphoneos-arm
-Filename: ./debs/3.deb
-Size: 46646
-Description: Trình chặn quảng cáo cho ứng dụng Youtube
-Name: Chặn Quảng cáo YouTube
-Author: Majd Alfhaily
-Sileodepiction: 
-Depiction: 
-Icon: file:///Applications/Cydia.app/Sections/tinhchinh.png
-MD5sum: ebe9219c6a45d7168ecd62b651d8cb70
-SHA1: ec62bc9df6bfb8ec301a7bd0b6bee7d93c258f64
-SHA256: a5fe211ebc721830a86295950eeeee9b692becc271b9a2ebf510d22680e7267b
-
-
-
-Package: com.repo.sangdaik.net.localiapstore
-Version: 1.4-5b
-Section: Tweaks
-Maintainer: Dương Sang
-Depends: firmware (>= 5.1.1), mobilesubstrate, preferenceloader
-Architecture: iphoneos-arm
-Filename: ./debs/6.deb
-Size: 70906
-Description: Bỏ qua thanh toán trong các ứng dụng App Store
-Name: LocaliAPStore
-Author: Anondev
-Sileodepiction: 
-Depiction: 
-Icon: file:///Applications/Cydia.app/Sections/tinhchinh.png
-MD5sum: 957620823985204589097b6b590c48c3
-SHA1: d522d5f1848a949e29760046f12ec9293778c2e4
-SHA256: 85c4db8bdef20a1cb29d2ed83323117dcde5459b7c69cabb835a1087f25c124a
-
-
-Package: net.sang.homegesture
-Version: 2.1.4
-Section: Tweaks
-Maintainer: Dương Sang
-Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader, com.creaturecoding.libcspreferences, com.creaturesurvive.libcscolorpicker, org.thebigboss.libcolorpicker, com.spark.libsparkapplist
-Architecture: iphoneos-arm
-Filename: ./debs/5.deb
-Size: 2329012
-Installed-Size: 3244
-Description: Mang tính năng trên iPhone X cho thiết bị cũ hơn.
-Name: HomeGesture X
-Author: VitaTaf/MidnightChips/PINPAL
-Sileodepiction: 
-Depiction: 
-Icon: file:///Applications/Cydia.app/Sections/tinhchinh.png
-MD5sum: 92e5bd4f7fac53a0cf41923ba907730c
-SHA1: d76e24af019d9abed7425815413edc78e9fba45e
-SHA256: 6d68b11f7d3ff0b7048c2782613aa45f6abadb7328c5bbfe1a728dc0d99d3f11
+Version: 0.2~beta9
+Installed-Size: 740
+Filename: ./debs/com.sang.flyjb.deb
+Size: 122412
+MD5sum: f314eaa0e4fd38fd582263c3432fb707
+SHA1: e3ba33859419c6592299e85781c9afae26570f9f
+SHA256: 501b84fa124b248c3fd603c5346785a7a379f821b89eeca781d9e07eaf52a57e
+Icon: https://xsf1re.github.io/archive/images/xsf1re.png
+SileoDepiction: Repo by dương SAng
+Depiction: Repo by dương SAng
