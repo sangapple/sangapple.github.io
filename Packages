@@ -39,7 +39,6 @@ MD5sum: 755dc7f7e5e84983c4c73c10e2d701b6
 SHA1: fbc89fe227e9fef2a2b31309147b2e90695dbca0
 SHA256: 281c816fb8a1efa61410eba7f41fae07fc1e8a38f3e556551f58a5c05d8c7220
 
-
 Package: com.ichitaso.otadisabler
 Section: System
 Installed-Size: 200
