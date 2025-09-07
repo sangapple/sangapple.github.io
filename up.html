@@ -1,0 +1,19 @@
+<form action="/upload" method="post" enctype="multipart/form-data">
+  <input type="file" name="myFile" />
+  <button type="submit">Upload File</button>
+</form>
+
+<?php
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    if (isset($_FILES['myFile'])) {
+        $uploadDir = 'uploads/'; // Directory to save uploaded files
+        $uploadFile = $uploadDir . basename($_FILES['myFile']['name']);
+
+        if (move_uploaded_file($_FILES['myFile']['tmp_name'], $uploadFile)) {
+            echo "File uploaded successfully.";
+        } else {
+            echo "Error uploading file.";
+        }
+    }
+}
+?>
